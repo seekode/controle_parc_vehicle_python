@@ -161,25 +161,10 @@ Créer un programme de démonstration qui :
 7. Teste les exceptions (tentative de location d'un véhicule indisponible)
 8. Vérifie que le singleton fonctionne (deux références pointent vers la même instance)
 
-## Barème (sur 20)
-
-| Critère                                              | Points |
-| ---------------------------------------------------- | ------ |
-| Classe abstraite `Vehicule` correcte                 | 2      |
-| Classes concrètes de véhicules (héritage correct)    | 4      |
-| Interface `Assurable` et implémentation              | 2      |
-| Classe `GestionnaireTarifs` en Singleton fonctionnel | 3      |
-| Classe `Location` avec calculs corrects              | 2.5    |
-| Classe `Agence` avec toutes les méthodes             | 2.5    |
-| Exceptions personnalisées et gestion d'erreurs       | 1.5    |
-| Encapsulation (propriétés/getters/setters)           | 1      |
-| Méthodes magiques (`__str__`, `__repr__`)            | 0.5    |
-| Programme de test fonctionnel et complet             | 1      |
-| Propreté, lisibilité et commentaires                 | 1      |
 
 ## Livrables
 
-Un ou plusieurs fichiers Python contenant :
+Plusieurs fichiers Python contenant :
 
 1. Toutes les classes demandées
 2. Le programme de test/démonstration
